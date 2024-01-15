@@ -1,0 +1,18 @@
+/* styles.css */
+
+* {
+    text-align: center;
+    font-family: Helvetica, "Calibri", sans-serif;
+}
+
+.main {
+    background-color: rgb(255, 241, 222);
+}
+h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color :rgb(255, 209, 141);
+}
+
+li {
+    text-align: left;
+}
