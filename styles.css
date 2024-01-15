@@ -16,3 +16,7 @@ h1, h2, h3 {
 li {
     text-align: left;
 }
+
+.block {
+    color: black;
+}
