@@ -3,7 +3,7 @@
 * {
     font-family: Helvetica, "Calibri", sans-serif;
     box-sizing: border-box;
-    /* border: red dotted; */
+    border: red dotted;
 }
 
 body {
@@ -16,7 +16,25 @@ body {
 .banner {
     background-color: rgb(181, 112, 69);
     height: 50px;
+    display: flex;
+    padding: 5px 50px;
+    gap: 50px;
+    justify-content: center;
 }
+.banner a {
+    flex: 0 1 150px;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    color: rgb(63, 40, 26);
+    text-decoration: none;
+    border: 1px solid rgb(212, 147, 107);
+}
+.banner a:hover {
+    background-color: rgb(212, 147, 107);
+    color: rgb(255, 255, 255);
+}
+
 
 p {
     width: 70%;
@@ -46,7 +64,7 @@ h1 {
     font-size: 16px;
 }
 .main-link:hover {
-    background-color: rgb(219, 136, 84);
+    background-color: rgb(181, 112, 69);
 }
 .center {
     margin: 0 auto;
