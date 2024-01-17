@@ -1,14 +1,16 @@
 /* styles.css */
 
 * {
-    text-align: center;
     font-family: Helvetica, "Calibri", sans-serif;
+    box-sizing: border-box;
+    border: red dotted;
 }
 
 .main {
     background-color: rgb(255, 241, 222);
 }
 h1, h2, h3 {
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color :rgb(255, 209, 141);
 }
@@ -19,4 +21,10 @@ li {
 
 .block {
     color: black;
+}
+
+.center {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
 }
