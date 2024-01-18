@@ -3,7 +3,7 @@
 * {
     font-family: Helvetica, "Calibri", sans-serif;
     box-sizing: border-box;
-    border: red dotted;
+    /* border: red dotted; */
 }
 
 body {
@@ -19,10 +19,10 @@ body {
     display: flex;
     padding: 5px 50px;
     gap: 50px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .banner a {
-    flex: 0 1 150px;
+    flex: 0 1 20%;
     display: inherit;
     justify-content: center;
     align-items: center;
